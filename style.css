@@ -1,0 +1,378 @@
+*{
+   padding: 0;
+   margin: 0;
+  box-sizing: border-box;
+}
+body{
+  max-width: 2000px;
+   
+    
+}
+Nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    
+}
+.home{
+   display:flex;
+   list-style: none;
+   gap: 20px;
+}
+.bouton a{
+      text-decoration: none;
+    background:linear-gradient(135deg,#FF6600, #42210B) ;
+   color: aliceblue;
+   padding: 8px;
+}
+.no{
+    text-align: center;
+    background-color: #FF6600;
+    border-radius: 24px;
+    margin: 30px 60px;
+    padding: 10px 50px;
+    row-gap: 10px;
+    color: white;
+    height: 350px;
+}
+.color{
+   font-weight: bold;
+    background-color: #42210B;
+  color: white;
+  margin: 20px;
+  border-radius: 5px;
+ 
+}
+.digitale{
+   font-size: 30px;
+    padding: 30px;
+    line-height: 40px;
+}
+.m{
+    background-color:#FFFFFF1A ;
+    padding: 20px;
+    
+}
+.image{
+    background-image:url(color.png);
+    background-repeat: no-repeat;
+    background-position: center;
+   background-size: cover;
+   position: relative;
+    bottom: 45px;
+}
+.partie2{
+    display: flex;
+    position: relative;
+   
+}
+.RM{
+    margin: 80px;
+      position: relative;
+   
+}
+.marche{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+   gap: 10px;
+   flex:1;
+   position: relative;
+   bottom: 100px;
+   margin: 50px;
+}
+.item{
+   
+    padding: 10px;
+   border: 1px solid rgb(228, 162, 21);
+   border-radius: 10px;
+}
+.sithiou{
+     background-image:url(color.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:900px ;
+    position: relative;
+    bottom: 95px;
+}
+
+
+.partie3{
+   display: flex; 
+   position: relative;
+
+  
+}
+.real{
+   margin-left: 50px;
+}
+.sign{
+  padding:100px;
+    display: flex;
+    flex-direction: column;
+   gap: 10px;
+   flex:1;
+}
+.M{
+    padding: 10px;
+   border: 1px solid rgb(228, 162, 21);
+   border-radius: 10px;
+}
+.fillette{
+     background-image:url(color.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:900px ;
+}
+.partie4{ 
+    display: flex;
+   padding-left: 300px;
+  background-color: #FF6600;
+    border-radius: 24px;
+    margin: 100px ;
+     height: 350px;
+    color: white;
+    position: relative;
+
+}
+.un{
+ background-color:#FFFFFF1A ;
+   padding: 50px; 
+    position: relative;
+   bottom: 15px;
+}
+.lampe{
+ position: absolute;
+ margin-left: 450px;
+ margin-top: 55px;
+}
+.slt{
+    background-color:#42210B ;
+     padding: 10px 60px;
+   margin: 30px 5px;
+
+   
+}
+.rd{
+  background-color: #FFFFFF;
+  color: rgb(216, 94, 13);
+ padding:15px ;
+ margin-left: 150px;
+  position: relative;
+  
+  margin-right: 150px;
+  border-radius: 10px 10px 10px 10px;
+}
+.partie5{
+    display: flex;
+   margin: 80px;
+   gap: 200px;
+}
+.p5{
+       position: relative;
+  
+}
+.accompagnement{
+    border: 1px solid chocolate;
+    padding-left: 20px;
+     position: relative;
+   bottom: 35px;
+   border-radius: 10px 10px ;
+   width: 500px;
+   color:#42210B;
+    background-color:#e2dede1a;
+}
+.equipes{
+     border: 1px solid chocolate;
+    padding-left: 20px;
+     position: relative;
+   bottom: 35px;
+   border-radius: 10px 10px ;
+   width: 500px;
+     color:#42210B;
+      background-color:#e2dede1a;
+}
+.atc{
+    margin: 25px;
+}
+h3{
+    color: #FF6600;
+    margin: 10px;
+}
+h2{
+margin-left: 75px;
+}
+.partie6{
+    background-color: #FF6600;
+    height: 150px;
+    display: flex;
+     align-items: center;
+  justify-content: center;
+}
+.chap{
+  display: flex;
+  gap: 50px;
+}
+.a{
+    background-color: #FFFFFF;
+    padding: 20px;
+   border-radius: 10px 10px ;
+}
+h4{
+    background-color: #FF6600;
+    width: 49px;
+    padding: 6px;
+    border-radius: 5px 5px;
+    color: #FFFFFF;
+}
+ span{
+color: #FF6600;
+}
+
+    
+
+.menu{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+     background-color:#F9F9F9;
+     padding: 20px;
+     border-radius: 20px 20px; 
+}
+.rdd{
+    margin-top: 70px;
+}
+.cc{
+    color: #FF6600;
+}
+.ol{
+    margin-left:85px;
+    list-style: none;
+   
+}
+.trait{
+    width: 2px;
+    background-color:#948e8e;
+}
+.bouton{
+    background:linear-gradient(135deg,#FF6600, #42210B) ;
+   color: aliceblue;
+   padding: 9px;
+   width: 200px;
+   border-radius: 10px 10px;
+}
+.num{
+    background-color: #FF6600;
+    color: #F9F9F9;
+    padding: 4px 8px;
+    margin-right: 10px;
+   font-weight: bolder;
+   border-radius: 4px;
+}
+.partie8{
+    display: flex;
+    gap: 600px;
+}
+.sg{
+    margin: 35px 90px;
+}
+.yes{
+    border-radius: 50%;
+    border: 9px solid #FF7F2A0F;
+    width: 155px;
+    height: 125px;
+    padding: 8px 25px; 
+}
+.partie9{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+.yout{
+    margin-top: 125px;
+}
+.lorem{
+    background-color: #e9e5e1;
+    padding: 30px;
+    border-radius: 10px;
+   height: 400px;
+  
+}
+.lorem2{
+    background-color:  #e9e5e1;
+   height: 400px;
+     border-radius: 10px;
+}
+.ouz2{
+  background-color: #FF6600;
+    padding: 34px;
+      border-radius: 10px 10px 0 0;
+    
+}
+.bar{
+      height: 2px;
+    background-color:#0f0e0e;
+
+}
+.grid{
+    background-color: #52504e;
+    height: 82px;
+    padding: 60px;
+}
+.ouz{
+    display: flex;
+    gap: 9px;
+}
+.hadji{
+    color: #0f0e0e;
+    font-size: larger;
+}
+.ceo{
+    color: #FF6600;
+}.oussey{
+  display: flex;
+    gap: 9px;
+    margin-left:30px;  
+   position: relative;
+   bottom: 35px;
+}
+.partie10{
+    display: flex;
+    gap: 155px;
+    margin: 40px;
+    align-items: center;
+   
+}
+.p10{
+    background-color: #FF6600;
+    color: white;
+}
+.contact{
+   display: flex;
+
+   
+}
+.téléphone{
+    margin-top:55px;
+}
+button{
+    background-color: #42210B;
+    padding:5px 90px 0;
+    height: 45px;
+    border-radius: 10px;
+    color: white;
+    font-size: larger;
+   
+}
+footer{
+    text-align: center;
+}
+input{
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 250px;
+
+}
+
