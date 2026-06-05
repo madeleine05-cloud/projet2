@@ -3,12 +3,7 @@
    margin: 0;
   box-sizing: border-box;
 }
-body{
-  max-width: 2000px;
 
-   
-    
-}
 Nav{
     display: flex;
     justify-content: space-between;
@@ -31,7 +26,7 @@ Nav{
     text-align: center;
     background-color: #FF6600;
     border-radius: 24px;
-    margin: 30px 60px;
+    margin: 0px 60px;
     padding: 10px 50px;
     row-gap: 10px;
     color: white;
@@ -42,7 +37,9 @@ Nav{
     background-color: #42210B;
   color: white;
   margin: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
+  padding: 4px;
+  
  
 }
 .digitale{
@@ -53,72 +50,68 @@ Nav{
 .m{
     background-color:#FFFFFF1A ;
     padding: 20px;
-    
+    border-radius: 10px;
 }
 .image{
     background-image:url(color.png);
     background-repeat: no-repeat;
     background-position: center;
-   background-size: cover;
-   position: relative;
-    bottom: 45px;
+   background-size:cover;
+   
 }
 .partie2{
     display: flex;
-    position: relative;
+   justify-content: space-between
    
 }
 .RM{
-    margin: 80px;
-      position: relative;
-   
+    margin-top:85px  ;
 }
 .marche{
-    padding: 20px;
+    padding: 65px;
     display: flex;
     flex-direction: column;
    gap: 10px;
-   flex:1;
-   position: relative;
-   bottom: 100px;
-   margin: 50px;
 }
 .item{
    
-    padding: 10px;
-   border: 1px solid rgb(228, 162, 21);
+    padding: 25px;
+   border: 1px solid #FF6600;
    border-radius: 10px;
+   width: 700px;
+   
 }
 .sithiou{
      background-image:url(color.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size:900px ;
-    position: relative;
-    bottom: 95px;
 }
 
 
 .partie3{
    display: flex; 
-   position: relative;
-
-  
+   justify-content: space-around;
 }
 .real{
    margin-left: 50px;
 }
 .sign{
-  padding:100px;
+  padding:85px;
     display: flex;
     flex-direction: column;
    gap: 10px;
-   flex:1;
+
+  
+   
 }
 .M{
-    padding: 10px;
-   border: 1px solid rgb(228, 162, 21);
+    padding: 25px;
+   border: 1px solid #FF6600;
    border-radius: 10px;
+   width: 600px;
+   
+   
 }
 .fillette{
      background-image:url(color.png);
@@ -145,12 +138,12 @@ Nav{
 }
 .lampe{
  position: absolute;
- margin-left: 450px;
+ margin-left: 350px;
  margin-top: 55px;
 }
 .slt{
     background-color:#42210B ;
-     padding: 10px 60px;
+     padding: 10px 90px;
    margin: 30px 5px;
 
    
@@ -312,8 +305,8 @@ color: #FF6600;
     
 }
 .bar{
-      height: 2px;
-    background-color:#0f0e0e;
+      height: 1.5px;
+    background-color:#979494;
 
 }
 .grid{
@@ -321,6 +314,7 @@ color: #FF6600;
     height: 82px;
     padding: 60px;
 }
+
 .ouz{
     display: flex;
     gap: 9px;
@@ -351,8 +345,6 @@ color: #FF6600;
 }
 .contact{
    display: flex;
-
-   
 }
 .téléphone{
     margin-top:55px;
