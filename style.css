@@ -1,15 +1,17 @@
 *{
    padding: 0;
    margin: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; 
+  
 }
-
+body{
+    overflow-x: hidden;
+}
 Nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 30px;
-    
 }
 .home{
    display:flex;
@@ -56,7 +58,7 @@ Nav{
     background-image:url(color.png);
     background-repeat: no-repeat;
     background-position: center;
-   background-size:cover;
+   background-size:100%;
    
 }
 .partie2{
@@ -334,7 +336,7 @@ color: #FF6600;
 }
 .partie10{
     display: flex;
-    gap: 155px;
+    gap: 55px;
     margin: 40px;
     align-items: center;
    
